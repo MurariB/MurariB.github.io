@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+# Source CV and original photo stay local; only public/ assets are published
+/*.docx
+/Profile.jpeg
+*.tsbuildinfo
