@@ -16,7 +16,7 @@ export const profile = {
   about: [
     "I'm a software engineer with 14+ years of experience designing and building web applications and microservices, mostly in the .NET ecosystem, with hands-on front-end work in React, TypeScript and Angular. Today I lead the design of a transport intelligence and account-based ticketing platform at Arrive, working with a Scrum team across the UK and France.",
     "I enjoy turning messy business requirements into clean, scalable architecture, then seeing it through: APIs, front-end components, integration layers, code reviews and mentoring. I care about maintainable code, clear communication, and learning fast.",
-    "Outside work I design agentic development workflows: pipelines of specialised AI agents that refine requirements, write tests, implement, review and release software under strict quality gates. Tally Plate, a kitchen-management product, is built entirely this way. I'm also a STEM Ambassador, helping young people see where a career in technology can take them.",
+    "I design and run agentic development workflows: pipelines of specialised AI agents that refine requirements, write tests, implement, review and release software under strict quality gates. At Arrive I apply them to product development for our open-payments and account-based ticketing systems, and my own product, Tally Plate, is built entirely this way. I'm also a STEM Ambassador, helping young people see where a career in technology can take them.",
   ],
 };
 
@@ -49,8 +49,9 @@ export const experience: Role[] = [
       "Translate high-level business requirements into scalable technical solutions with strong architectural foundations.",
       "Deliver end-to-end solutions: backend APIs, front-end components and integration layers.",
       "Review code for quality, performance and best practice, and mentor developers across the team.",
+      "Apply agentic AI development workflows (multi-agent Claude Code pipelines) to product development for open-payments and account-based ticketing (ABT) systems.",
     ],
-    tech: [".NET Core", "ASP.NET Core Web API", "React", "Material UI", "EF Core", "Redis", "RabbitMQ", "Keycloak", "Hangfire", "Docker", "Jenkins", "AWS"],
+    tech: [".NET Core", "ASP.NET Core Web API", "React", "Material UI", "EF Core", "Redis", "RabbitMQ", "Keycloak", "Hangfire", "Docker", "Jenkins", "AWS", "Claude Code"],
   },
   {
     title: "Technical Lead",
@@ -121,7 +122,7 @@ export type Project = {
 // Personal project, shown as the large featured card.
 export const tallyPlate = {
   name: "Tally Plate",
-  badge: "Personal project · Built with a multi-agent AI pipeline",
+  badge: "Personal product · Built with a multi-agent AI pipeline",
   summary:
     "Recipe costing, allergen management and food-label software for independent UK kitchens. I built it solo, end to end, using an agentic development workflow I designed: a pipeline of specialised Claude Code agents that takes each backlog task from refinement to a reviewed, tested, merged pull request.",
   // Set this to the live site URL to show a "Visit site" button.
@@ -157,8 +158,9 @@ export const projects: Project[] = [
       "Event-driven microservices with RabbitMQ (EasyNetQ), Redis caching and Hangfire background jobs.",
       "Identity and access through Keycloak; React + Material UI operator front end.",
       "Containerised with Docker and delivered through Jenkins to AWS.",
+      "Agentic AI development workflows used to build open-payments and ABT features.",
     ],
-    tech: [".NET Core", "React", "RabbitMQ", "Redis", "Keycloak", "AWS"],
+    tech: [".NET Core", "React", "RabbitMQ", "Redis", "Keycloak", "AWS", "Agentic AI"],
   },
   {
     name: "Papillon: Member Care & Claims Administration",
